@@ -20,3 +20,11 @@
 2) SELECT * from country WHERE LENGTH(country) > 6 AND country LIKE ‘%a';
 3) SELECT title FROM film WHERE title LIKE ‘%t%t%t%t'
 4) SELECT * FROM film WHERE title LIKE 'C%' AND LENGTH > 90 AND rental_rate = 2.99;
+
+## Homework 4
+
+1) SELECT DISTINCT(replacement_cost) FROM film;
+2) SELECT COUNT(DISTINCT replacement_cost) FROM film;
+3) SELECT COUNT(DISTINCT title = 'T%' AND rating = 'G') FROM film;
+4) SELECT COUNT(*) FROM country WHERE LENGTH(country) = 5;
+5) SELECT COUNT(city) FROM city WHERE city LIKE 'R%r';
