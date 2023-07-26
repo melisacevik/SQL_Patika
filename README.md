@@ -28,3 +28,8 @@
 3) SELECT COUNT(DISTINCT title = 'T%' AND rating = 'G') FROM film;
 4) SELECT COUNT(*) FROM country WHERE LENGTH(country) = 5;
 5) SELECT COUNT(city) FROM city WHERE city LIKE 'R%r';
+
+## Homework 5
+1) SELECT * FROM film WHERE title LIKE ‘%n' ORDER BY length LIMIT 20;
+2) SELECT * FROM film WHERE title LIKE ‘%n' ORDER BY length offset 5 limit 5;
+3) SELECT * FROM customer WHERE store_id = 1 ORDER BY last_name DESC limit 4;
