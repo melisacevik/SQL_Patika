@@ -40,7 +40,7 @@
 3) SELECT MAX(length) FROM film WHERE rental_rate = 0.99;
 4) SELECT COUNT(replacement_cost) FROM film WHERE length > 150;
 
-## Homework 7
+## Homework 7
 1) SELECT rating,COUNT(*) FROM film GROUP BY rating;
 2) SELECT replacement_cost, COUNT(*) FROM film GROUP BY replacement_cost  HAVING COUNT(*) > 50;
 3) SELECT store_id,COUNT(*) FROM customer GROUP BY store_id;
