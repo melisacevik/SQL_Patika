@@ -46,7 +46,7 @@
 3) SELECT store_id,COUNT(*) FROM customer GROUP BY store_id;
 4) SELECT country_id, COUNT(*) FROM city GROUP BY country_id ORDER BY COUNT(*) DESC LIMIT 1;
 
-## Homework 7
+## Homework 8
 
 1) CREATE TABLE employee(
 	id INTEGER PRIMARY KEY, 
