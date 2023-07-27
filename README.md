@@ -131,3 +131,8 @@ WHERE id= 3;
 2) SELECT payment_id, first_name,last_name FROM customer INNER JOIN payment ON payment_id = payment.payment_id;
 3) SELECT rental_id, first_name, last_name FROM customer INNER JOIN rental ON customer.customer_id = rental.customer_id;
 
+## Homework 10
+
+1) SELECT country,city FROM country LEFT JOIN city ON country.country_id = city.country_id;
+2) SELECT payment_id, first_name,last_name FROM customer  RIGHT JOIN payment ON payment_id = payment.payment_id;
+3) SELECT rental_id, first_name, last_name FROM customer  FULL JOIN rental ON customer.customer_id = rental.customer_id;
