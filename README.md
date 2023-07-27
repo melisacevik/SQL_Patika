@@ -136,3 +136,10 @@ WHERE id= 3;
 1) SELECT country,city FROM country LEFT JOIN city ON country.country_id = city.country_id;
 2) SELECT payment_id, first_name,last_name FROM customer  RIGHT JOIN payment ON payment_id = payment.payment_id;
 3) SELECT rental_id, first_name, last_name FROM customer  FULL JOIN rental ON customer.customer_id = rental.customer_id;
+
+## Homework 11
+
+1)   (SELECT first_name FROM actor)UNION(SELECT first_name FROM customer)
+2) (SELECT first_name FROM actor) INTERSECT (SELECT first_name FROM customer)
+3) (SELECT first_name FROM actor)EXCEPT(SELECT first_name FROM customer)
+4)  ALL 
